@@ -143,7 +143,7 @@ async function startnigg(phone) {
             1,
             'N'
           )
-          const sessi = 'WASI-MD&' + output.split('https://pastebin.com/')[1]
+          const sessi = 'Fenix-Md&' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
@@ -151,9 +151,9 @@ async function startnigg(phone) {
           await negga.sendMessage(
             negga.user.id,
             {
-              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using WASI-MD\n\n \n',
+              text: '𝘛𝘩𝘢𝘯𝘬 𝘠𝘰𝘶 𝘍𝘰𝘳 𝘊𝘩𝘰𝘰𝘴𝘪𝘯𝘨 𝘍𝘦𝘯𝘪𝘹 𝘔𝘥\n\n 𝘋𝘰𝘯'𝘵 𝘚𝘩𝘢𝘳𝘦 𝘠𝘰𝘶 𝘚𝘦𝘴𝘴𝘪𝘰𝘯 𝘐𝘥 𝘞𝘪𝘵𝘩 𝘌𝘯𝘺𝘰𝘯𝘦',
             },
-            { quoted: guru }
+            { quoted: fenix }
           )
 
           console.log('Connected to WhatsApp Servers')
